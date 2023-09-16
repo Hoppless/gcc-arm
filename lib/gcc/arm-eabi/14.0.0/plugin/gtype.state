@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "14.0.0 20230912 (Stable)")
+(!version  "14.0.0 20230916 (Stable)")
 (!srcdir  "../../gcc/gcc")
 (!languages 12 ada c cp d fortran go jit lto m2 objc objcp rust)
 (!fileslist 241 0
@@ -9719,15 +9719,15 @@
                                                            nil )
                                                           (!pair  "dw_attr_node"
                                                            (!type struct 496 nil  gc_used "dw_attr_struct"
-                                                            (!srcfileloc  "dwarf2out.h" 434)
+                                                            (!srcfileloc  "dwarf2out.h" 435)
                                                             (!fields 2 
                                                              (!pair  "dw_attr"
                                                               (!type already_seen 2)
-                                                              (!srcfileloc  "dwarf2out.h" 432)
+                                                              (!srcfileloc  "dwarf2out.h" 433)
                                                               nil )
                                                              (!pair  "dw_attr_val"
                                                               (!type already_seen 480)
-                                                              (!srcfileloc  "dwarf2out.h" 433)
+                                                              (!srcfileloc  "dwarf2out.h" 434)
                                                               nil )
                                                             )
                                                             nil 4095 nil nil )
@@ -9976,19 +9976,19 @@
                                                     (!type struct 506 
                                                      (!type already_seen 505)
                                                      gc_pointed_to "dwarf_file_data"
-                                                     (!srcfileloc  "dwarf2out.h" 465)
+                                                     (!srcfileloc  "dwarf2out.h" 466)
                                                      (!fields 3 
                                                       (!pair  "key"
                                                        (!type already_seen 11)
-                                                       (!srcfileloc  "dwarf2out.h" 462)
+                                                       (!srcfileloc  "dwarf2out.h" 463)
                                                        nil )
                                                       (!pair  "filename"
                                                        (!type already_seen 11)
-                                                       (!srcfileloc  "dwarf2out.h" 463)
+                                                       (!srcfileloc  "dwarf2out.h" 464)
                                                        nil )
                                                       (!pair  "emitted_number"
                                                        (!type already_seen 2)
-                                                       (!srcfileloc  "dwarf2out.h" 464)
+                                                       (!srcfileloc  "dwarf2out.h" 465)
                                                        nil )
                                                      )
                                                      (!options 
@@ -33906,7 +33906,7 @@
   nil )
  (!pair  "dw_attr_node"
   (!type already_seen 496)
-  (!srcfileloc  "dwarf2out.h" 435)
+  (!srcfileloc  "dwarf2out.h" 436)
   nil )
  (!pair  "dw_val_node"
   (!type already_seen 480)
