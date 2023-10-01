@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "14.0.0 20230923 (Stable)")
+(!version  "14.0.0 20231001 (Stable)")
 (!srcdir  "../../gcc/gcc")
 (!languages 12 ada c cp d fortran go jit lto m2 objc objcp rust)
 (!fileslist 241 0
@@ -17470,15 +17470,15 @@
      (!type struct 838 
       (!type already_seen 837)
       gc_pointed_to "cgraph_rtl_info"
-      (!srcfileloc  "rtl.h" 4566)
+      (!srcfileloc  "rtl.h" 4569)
       (!fields 2 
        (!pair  "preferred_incoming_stack_boundary"
         (!type already_seen 2)
-        (!srcfileloc  "rtl.h" 4561)
+        (!srcfileloc  "rtl.h" 4564)
         nil )
        (!pair  "function_used_regs"
         (!type already_seen 2)
-        (!srcfileloc  "rtl.h" 4565)
+        (!srcfileloc  "rtl.h" 4568)
         nil )
       )
       nil 4095 nil nil )
@@ -23010,23 +23010,23 @@
   nil 0 nil nil )
  
  (!type struct 1362 nil  gc_pointed_to "inline_entry_data"
-  (!srcfileloc  "dwarf2out.cc" 24322)
+  (!srcfileloc  "dwarf2out.cc" 24321)
   (!fields 4 
    (!pair  "block"
     (!type already_seen 23)
-    (!srcfileloc  "dwarf2out.cc" 24314)
+    (!srcfileloc  "dwarf2out.cc" 24313)
     nil )
    (!pair  "label_pfx"
     (!type already_seen 11)
-    (!srcfileloc  "dwarf2out.cc" 24317)
+    (!srcfileloc  "dwarf2out.cc" 24316)
     nil )
    (!pair  "label_num"
     (!type already_seen 2)
-    (!srcfileloc  "dwarf2out.cc" 24318)
+    (!srcfileloc  "dwarf2out.cc" 24317)
     nil )
    (!pair  "view"
     (!type already_seen 2)
-    (!srcfileloc  "dwarf2out.cc" 24321)
+    (!srcfileloc  "dwarf2out.cc" 24320)
     nil )
   )
   (!options 
@@ -23035,7 +23035,7 @@
   4095 nil nil )
  
  (!type struct 1363 nil  gc_used "inline_entry_data_hasher"
-  (!srcfileloc  "dwarf2out.cc" 24348)
+  (!srcfileloc  "dwarf2out.cc" 24347)
   (!fields 0 )
   nil 4095 nil nil )
  
@@ -23044,26 +23044,26 @@
    (!type already_seen 1364)
   )
   gc_pointed_to "hash_table<inline_entry_data_hasher>"
-  (!srcfileloc  "dwarf2out.cc" 24348)
+  (!srcfileloc  "dwarf2out.cc" 24347)
   (!fields 1 
    (!pair  "inline_entry_data_hasher"
     (!type already_seen 1363)
-    (!srcfileloc  "dwarf2out.cc" 24348)
+    (!srcfileloc  "dwarf2out.cc" 24347)
     nil )
   )
  )
  
  (!type struct 1366 nil  gc_unused "macinfo_entry_hasher"
-  (!srcfileloc  "dwarf2out.cc" 28917)
+  (!srcfileloc  "dwarf2out.cc" 28916)
   (!fields 0 )
   nil 4095 nil nil )
  
  (!type user_struct 1367 nil  gc_unused "hash_table<macinfo_entry_hasher>"
-  (!srcfileloc  "dwarf2out.cc" 28917)
+  (!srcfileloc  "dwarf2out.cc" 28916)
   (!fields 1 
    (!pair  "macinfo_entry_hasher"
     (!type already_seen 1366)
-    (!srcfileloc  "dwarf2out.cc" 28917)
+    (!srcfileloc  "dwarf2out.cc" 28916)
     nil )
   )
  )
@@ -23073,16 +23073,16 @@
   nil 0 nil nil )
  
  (!type struct 1369 nil  gc_unused "loc_list_hasher"
-  (!srcfileloc  "dwarf2out.cc" 31980)
+  (!srcfileloc  "dwarf2out.cc" 31979)
   (!fields 0 )
   nil 4095 nil nil )
  
  (!type user_struct 1370 nil  gc_unused "hash_table<loc_list_hasher>"
-  (!srcfileloc  "dwarf2out.cc" 31980)
+  (!srcfileloc  "dwarf2out.cc" 31979)
   (!fields 1 
    (!pair  "loc_list_hasher"
     (!type already_seen 1369)
-    (!srcfileloc  "dwarf2out.cc" 31980)
+    (!srcfileloc  "dwarf2out.cc" 31979)
     nil )
   )
  )
@@ -31589,7 +31589,7 @@
   )
  )
 )
-(!typedefs 960
+(!typedefs 959
  (!pair  "ivarref_entry"
   (!type already_seen 2392)
   (!srcfileloc  "objc/objc-next-runtime-abi-02.cc" 2997)
@@ -33666,35 +33666,35 @@
   nil )
  (!pair  "loc_list_hash_type"
   (!type already_seen 1370)
-  (!srcfileloc  "dwarf2out.cc" 31980)
+  (!srcfileloc  "dwarf2out.cc" 31979)
   nil )
  (!pair  "loc_list_hasher"
   (!type already_seen 1369)
-  (!srcfileloc  "dwarf2out.cc" 31980)
+  (!srcfileloc  "dwarf2out.cc" 31979)
   nil )
  (!pair  "hash_table<loc_list_hasher>"
   (!type already_seen 1370)
-  (!srcfileloc  "dwarf2out.cc" 31980)
+  (!srcfileloc  "dwarf2out.cc" 31979)
   nil )
  (!pair  "macinfo_hash_type"
   (!type already_seen 1367)
-  (!srcfileloc  "dwarf2out.cc" 28917)
+  (!srcfileloc  "dwarf2out.cc" 28916)
   nil )
  (!pair  "macinfo_entry_hasher"
   (!type already_seen 1366)
-  (!srcfileloc  "dwarf2out.cc" 28917)
+  (!srcfileloc  "dwarf2out.cc" 28916)
   nil )
  (!pair  "hash_table<macinfo_entry_hasher>"
   (!type already_seen 1367)
-  (!srcfileloc  "dwarf2out.cc" 28917)
+  (!srcfileloc  "dwarf2out.cc" 28916)
   nil )
  (!pair  "inline_entry_data_hasher"
   (!type already_seen 1363)
-  (!srcfileloc  "dwarf2out.cc" 24348)
+  (!srcfileloc  "dwarf2out.cc" 24347)
   nil )
  (!pair  "hash_table<inline_entry_data_hasher>"
   (!type already_seen 1364)
-  (!srcfileloc  "dwarf2out.cc" 24348)
+  (!srcfileloc  "dwarf2out.cc" 24347)
   nil )
  (!pair  "external_ref_hash_type"
   (!type already_seen 1356)
@@ -34718,7 +34718,7 @@
   nil )
  (!pair  "hash_rtx_callback_function"
   (!type already_seen 2)
-  (!srcfileloc  "rtl.h" 4144)
+  (!srcfileloc  "rtl.h" 4147)
   nil )
  (!pair  "for_each_inc_dec_fn"
   (!type already_seen 2)
@@ -35354,69 +35354,65 @@
   nil )
  (!pair  "void *"
   (!type already_seen 3)
-  (!srcfileloc  "gengtype.cc" 5253)
+  (!srcfileloc  "gengtype.cc" 5252)
   nil )
  (!pair  "CONSTEXPR"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5252)
+  (!srcfileloc  "gengtype.cc" 5251)
   nil )
  (!pair  "fixed_size_mode"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5251)
+  (!srcfileloc  "gengtype.cc" 5250)
   nil )
  (!pair  "machine_mode"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5250)
+  (!srcfileloc  "gengtype.cc" 5249)
   nil )
  (!pair  "void"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5249)
+  (!srcfileloc  "gengtype.cc" 5248)
   nil )
  (!pair  "JCF_u2"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5248)
+  (!srcfileloc  "gengtype.cc" 5247)
   nil )
  (!pair  "jword"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5247)
+  (!srcfileloc  "gengtype.cc" 5246)
   nil )
  (!pair  "uintptr_t"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5246)
+  (!srcfileloc  "gengtype.cc" 5245)
   nil )
  (!pair  "uint8"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5245)
+  (!srcfileloc  "gengtype.cc" 5244)
   nil )
  (!pair  "uint32_t"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5244)
+  (!srcfileloc  "gengtype.cc" 5243)
   nil )
  (!pair  "uint64_t"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5243)
+  (!srcfileloc  "gengtype.cc" 5242)
   nil )
  (!pair  "poly_uint64"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5242)
+  (!srcfileloc  "gengtype.cc" 5241)
   nil )
  (!pair  "poly_int64"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5241)
+  (!srcfileloc  "gengtype.cc" 5240)
   nil )
  (!pair  "int64_t"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5240)
+  (!srcfileloc  "gengtype.cc" 5239)
   nil )
  (!pair  "widest_int"
   (!type already_seen 2)
-  (!srcfileloc  "gengtype.cc" 5239)
-  nil )
- (!pair  "offset_int"
-  (!type already_seen 2)
   (!srcfileloc  "gengtype.cc" 5238)
   nil )
- (!pair  "poly_int64_pod"
+ (!pair  "offset_int"
   (!type already_seen 2)
   (!srcfileloc  "gengtype.cc" 5237)
   nil )
@@ -37340,7 +37336,7 @@
   nil )
  (!pair  "cv_cache"
   (!type already_seen 396)
-  (!srcfileloc  "cp/constexpr.cc" 8780)
+  (!srcfileloc  "cp/constexpr.cc" 8779)
   (!options 
    (!option deletable string  "")
   )
@@ -38340,7 +38336,7 @@
   nil )
  (!pair  "next_block_index"
   (!type already_seen 2)
-  (!srcfileloc  "function.cc" 4612)
+  (!srcfileloc  "function.cc" 4604)
   nil )
  (!pair  "temp_slot_address_table"
   (!type already_seen 1460)
@@ -38486,7 +38482,7 @@
   nil )
  (!pair  "inline_entry_data_table"
   (!type already_seen 1365)
-  (!srcfileloc  "dwarf2out.cc" 24348)
+  (!srcfileloc  "dwarf2out.cc" 24347)
   nil )
  (!pair  "external_die_map"
   (!type already_seen 1350)
@@ -39063,7 +39059,7 @@
   nil )
  (!pair  "stack_limit_rtx"
   (!type already_seen 100)
-  (!srcfileloc  "rtl.h" 4496)
+  (!srcfileloc  "rtl.h" 4499)
   nil )
  (!pair  "default_target_rtl"
   (!type already_seen 588)
